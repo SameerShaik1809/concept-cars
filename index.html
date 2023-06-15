@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<head>
+<title>Cars</title>
+<meta charset="utf-8">
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+<!-- CSS Files -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+<!-- Contact Form -->
+<link href="contact-form/css/style.css" media="screen" rel="stylesheet" type="text/css">
+<!-- JS Files -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.tools.min.js"></script>
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+</script>
+</head>
+<body>
+<!-- Main Menu -->
+<ol id="menu">
+  <li class="active_menu_item"><a href="index.html" style="color:#FFF">Home</a>
+    
+  <li><a href="contact.html">Contact</a></li>
+</ol>
+<div id="container">
+  <div id="site_title"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+  <!-- tab panes -->
+  <div id="prod_wrapper">
+    <div id="panes">
+      <div> <img src="img/demo/1.jpg" alt="">
+        <h2>CyberSpeed</h2>
+        <p>CyberSpeed is a futuristic car that incorporates advanced robotic features. With its sleek design and autonomous capabilities, it can navigate through the city with precision and efficiency. Equipped with state-of-the-art sensors and AI technology, CyberSpeed can analyze its surroundings, adapt to traffic conditions, and make intelligent decisions to ensure a safe and smooth ride. Its advanced communication systems also enable seamless connectivity with smart city infrastructure, making it an integral part of the evolving transportation ecosystem.</p>
+      </div>
+      <div> <img src="img/demo/2.jpg" alt="">
+        <h2>TechRover</h2>
+        <p>TechRover is a revolutionary car that blends automotive engineering with robotic innovation. It features a range of robotic features that enhance both the driving experience and functionality. With its intelligent voice control system, TechRover can respond to verbal commands, adjust settings, and provide real-time information to the driver. Additionally, it incorporates advanced safety features like collision avoidance and self-parking capabilities, making it a reliable and intelligent companion on the road. </p>
+      </div>
+      <div> <img src="img/demo/3.jpg" alt="">
+        <h2>RoboGlide</h2>
+        <p> RoboGlide is an advanced car designed to offer a seamless driving experience through its robotic features. Equipped with an advanced autopilot system, it can navigate highways and busy streets autonomously, allowing the driver to sit back and relax. RoboGlide also incorporates intelligent energy management systems, optimizing its power consumption and reducing emissions for a greener and more sustainable future. With its futuristic design and cutting-edge technology, RoboGlide is the epitome of next-generation transportation. </p>
+      </div>
+      <div> <img src="img/demo/4.jpg" alt="">
+        <h2>Enertron</h2>
+        <p>Enertron is an electric car that showcases robotic elements in its design and functionality. It utilizes advanced regenerative braking systems and energy recapture technology to maximize efficiency and extend its range. Enertron also features intelligent charging capabilities, allowing it to communicate with charging stations and optimize charging schedules based on energy demand and availability. With its robotic intelligence and eco-friendly attributes, Enertron represents the future of sustainable mobility.</p>
+      </div>
+      <div> <img src="img/demo/5.jpg" alt="">
+        <h2>RoboLux</h2>
+        <p>RoboLux is a luxury car that integrates robotic features to provide a superior driving experience. Its advanced suspension system adjusts automatically based on road conditions, ensuring a smooth and comfortable ride. The onboard AI assistant offers personalized assistance, providing real-time traffic updates, weather information, and entertainment options. RoboLux also boasts advanced safety features like autonomous emergency braking and adaptive cruise control, making it a secure and technologically advanced choice for discerning drivers.</p>
+      </div>
+    </div>
+    <!-- END tab panes -->
+    <br clear="all">
+    <!-- navigator -->
+    <div id="prod_nav">
+      <ul>
+        <li><a href="#1"><img src="img/demo/1.jpg" width="160" alt=""><strong>CyberSpeed</strong> $ 199,000</a></li>
+        <li><a href="#2"><img src="img/demo/2.jpg" width="160" alt=""><strong>TechRover</strong> $ 125,000</a></li>
+        <li><a href="#3"><img src="img/demo/3.jpg" width="160" alt=""><strong>RoboGlide</strong> $ 480,000</a></li>
+        <li><a href="#4"><img src="img/demo/4.jpg" width="160" alt=""><strong>Enertron</strong> $ 109,900</a></li>
+        <li><a href="#5"><img src="img/demo/5.jpg" width="160" alt=""><strong>RoboLux</strong> $ 999,000</a></li>
+      </ul>
+    </div>
+    <!-- END navigator -->
+  </div>
+  <!-- END prod wrapper -->
+  <div style="clear:both"></div>
+  <div class="one-third">
+    <h2>Business Solutions</h2>
+    <p>Our business solutions are designed to meet the unique needs of modern enterprises. We offer a comprehensive range of services and technologies to optimize operations, enhance productivity, and drive growth. From cloud computing and data analytics to cybersecurity and digital transformation, our solutions empower businesses to stay competitive in today's fast-paced market. With a customer-centric approach and industry expertise, we deliver tailored solutions that address your specific challenges and unlock new opportunities for success.</p>
+  </div>
+  <div class="one-third">
+    <h2>Become a Partner</h2>
+    <p>Join our partner network and unlock a world of opportunities. As a partner, you'll gain access to our extensive resources, cutting-edge technologies, and collaborative ecosystem. Together, we can create innovative solutions and drive mutual growth. Whether you're an IT service provider, software developer, or consultant, partnering with us will give you a competitive edge in the market. Benefit from our industry leadership, training programs, marketing support, and co-selling initiatives. Let's build a strong partnership and shape the future of business together..</p>
+  </div>
+  <div class="one-third last">
+    <h2>Latest News</h2>
+    <p>Stay informed with our latest news and updates. We bring you the most relevant and insightful information from the world of technology and business. Discover the latest trends, industry developments, product launches, and success stories. Our news section keeps you updated on the advancements that can impact your business. Be the first to know about our new solutions, partnerships, and events. Stay connected with us and stay ahead in the ever-evolving business landscape.</p>
+  </div>
+  <div style="clear:both"></div>
+  <div class="box_highlight" style="margin-top:40px">
+    <h2 style="text-align:center">Come join with us!</h2>
+  </div>
+  <div class="one-half">
+    <div class="heading_bg">
+      <h2>About Us</h2>
+    </div>
+    <blockquote>Welcome to the world of Robotic Cars! Our webpage is your gateway to exploring the fascinating realm of cutting-edge automotive technology. Discover a new generation of vehicles that combine the power of robotics with the convenience of transportation.
+
+Our robotic cars are revolutionizing the way we commute, offering advanced features and capabilities that were once only seen in science fiction. From autonomous driving and smart navigation systems to integrated AI assistants and enhanced safety measures, these cars are designed to provide a seamless and futuristic driving experience.
+
+Experience the thrill of sitting behind the wheel of a robotic car as it effortlessly navigates through traffic, adapts to road conditions, and even communicates with other vehicles. Our cars are equipped with state-of-the-art sensors, intelligent algorithms, and connectivity features that enable them to make split-second decisions and ensure a smooth and efficient ride.
+
+Whether you're a technology enthusiast, a car enthusiast, or simply curious about the future of transportation, our webpage is your one-stop destination to learn about the latest advancements in robotic cars. Explore our collection of robotic car models, delve into the technology behind them, and stay updated with the latest news and developments in this exciting field.
+
+Join us on this journey as we pave the way for a new era of mobility. Discover how robotic cars are reshaping our roads, enhancing safety, and revolutionizing the way we travel. Embrace the future of transportation and get ready to embark on an extraordinary driving experience like never before.
+
+Welcome to the world of Robotic Cars, where innovation and imagination collide to create the ultimate driving revolution. </blockquote>
+    <div class="heading_bg">
+      <h2>Video</h2>
+    </div>
+    <iframe src="http://player.vimeo.com/video/22884674?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="465" height="262" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+  <div class="one-half last">
+    <div class="heading_bg">
+      <h2>Contact us today!</h2>
+    </div>
+    <form action="#" class="TTWForm" method="post">
+      <div id="field1-container" class="field f_50">
+        <label for="field1">Name</label>
+        <input name="name" id="field1" type="text">
+      </div>
+      <div id="field2-container" class="field f_50">
+        <label for="field2">Telephone</label>
+        <input name="tel" id="field2" type="text">
+      </div>
+      <div id="field5-container" class="field f_50">
+        <label for="field5">Email</label>
+        <input name="email" id="field5" type="email">
+      </div>
+      <div id="field4-container" class="field f_100">
+        <label for="field4">Message</label>
+        <textarea rows="5" cols="20" name="message" id="field4"></textarea>
+      </div>
+      <div id="form-submit" class="field f_100 clearfix submit">
+        <input value="Submit" type="submit">
+      </div>
+    </form>
+  </div>
+  <div style="clear:both; height: 40px"></div>
+</div>
+<!-- END container -->
+<div id="footer">
+  <div class="one-fourth last">
+    <h3>Socialize</h3>
+    <img src="img/icon_fb.png" alt=""> <img src="img/icon_twitter.png" alt=""> <img src="img/icon_in.png" alt=""> </div>
+  <div style="clear:both"></div>
+</div>
+<!-- END footer -->
+</body>
+</html>
